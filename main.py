@@ -75,8 +75,8 @@ def test_spotify_auth():
     """Test Spotify authentication"""
     print("\n🔐 Step 2: Testing Spotify authentication...")
 
-    CLIENT_ID = "797926ecf7c94ac7928b2a519ff34d42"
-    CLIENT_SECRET = "54028d7053ca4bf693c37549406f6966"
+    CLIENT_ID = "add your own client key"
+    CLIENT_SECRET = "add youre own secret key"
 
     try:
         # Encode credentials
@@ -314,4 +314,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
